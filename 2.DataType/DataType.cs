@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Basic.Variables
+namespace Basic._2.DataType
 {
-    public class Variable
+    public class DataType
     {
-
-      public void ConvertToInt_Option1()
+        public void ConvertToInt_Option1()
         {
             string a = "123";
             int outphut_a = Convert.ToInt32(a);

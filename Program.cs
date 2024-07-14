@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Variables = Basic.Variables;
+using Variables = Basic._1.Variables;
 
 namespace Basic
 {
@@ -12,16 +12,22 @@ namespace Basic
         static void Main(string[] args)
         {
 
-            //Variable
-            Console.WriteLine("Hello World");
-            Variables.Variable variable = new Variables.Variable();
-            variable.ConvertToInt_Option1();
-            variable.ConvertToInt_Option2();
-            variable.ConvertToInt_Option3();
+            //Variables
+                //+Variable
+                        Console.WriteLine("Hello World");
+                        Variables.Variables variables = new Variables.Variables();
+                        variables.KhaiBao1();
+                        variables.KhaiBao2();
+                        variables.KhaiBao3();
+                //Constants
+                        Variables.Constants Constants = new Variables.Constants();
+                        Constants.KhaiBao();
 
 
 
-            
+
+
+
           }
     }
 }
