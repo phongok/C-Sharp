@@ -7,7 +7,32 @@ using System.Threading.Tasks;
 namespace Basic._2.DataType
 {
     public class DataType
+
     {
+        public void KhaiBao() {
+            int myInt = 100000;
+            Console.WriteLine(myInt);
+
+            long myLong = 15000000000L;
+            Console.WriteLine(myLong);
+
+            float myFloat = 5.75F;
+            Console.WriteLine(myFloat);
+
+            double myDouble = 19.99D;
+            Console.WriteLine(myDouble);
+
+            bool myBool = true;
+            Console.WriteLine(myBool);
+
+            char myChar = 'P';
+            Console.WriteLine(myChar);
+
+            string myString = "Nguyễn Thanh Phong";
+
+            Console.WriteLine(myString);
+
+         }
         public void ConvertToInt_Option1()
         {
             string a = "123";
